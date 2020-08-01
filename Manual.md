@@ -37,6 +37,8 @@ Go to terminal to enter the following commands. (Don't enter the explaination pa
   (Explaination: this will start reading for default settings. You will give the settings in the next line)
 
 5. (Copy the complete command below and paste. Note:Even the slight mistake in copying or copying extra spaces will result in an error.)  
+``` batch
+
 #!/bin/bash
 
 set -e
@@ -63,7 +65,8 @@ lb config noauto \
      --updates true \
      --memtest memtest86 \
 	"${@}"
- 
+```
+
 (Save and exit the terminal)
 (Explaination: #!/bin/bash is a command that tells the system that this file is a set of commands that need to be executed. set -e will ignore errors and will go to next command incase it gets any errors.  If noauto \ is not used, infinite recursion will occur. The rest of the commands are neccessary for easy building of the OS.)
 
@@ -74,7 +77,7 @@ lb config noauto \
 Step 6: Install required packages 
 
 7. (Copy the following text from top to bottom. The following listed applications we will install in the OS. Note: We will be adding more applications) 
-
+```
 task-kde-desktop
 debian-installer-launcher
 git
@@ -105,7 +108,7 @@ gimp
 kdenlive
 blender
 vlc
-  
+```  
 (save and exit the terminal)
 
 (To download more applications, we will follow this next steps)
