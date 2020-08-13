@@ -49,19 +49,26 @@ custom_os="http://debianmirror.nkn.in/debian"
 dist="buster"
 
 lb config noauto \
+
+     --iso-hybrid \
+     --linux-flavours amd64 \
+     --cache true \
+     --distribution buster \
+     --mode debian \
      --architectures amd64 \
      --archive-areas "main contrib non-free" \
      --interactive shell \
      --debian-installer true  \
-     --debian-installer-gui true \
+     --debian-installer live
+     --debian-installer-gui false \
      --mirror-bootstrap "$custom_os" \
      --mirror-debian-installer "$custom_os" \
-     --distribution "$dist" \
      --debian-installer-distribution "$dist" \
      --iso-application "custom-os" \
      --iso-publisher "mvs" \
      --iso-volume "custom-os Live" \
-     --security false \
+     --security true \
+     --win32-loader false \
      --updates true \
      --memtest memtest86 \
 	"${@}"
@@ -78,7 +85,7 @@ Step 6: Install required packages
 
 7. (Copy the following text from top to bottom. The following listed applications we will install in the OS. Note: We will be adding more applications) 
 ```
-task-kde-desktop
+task-gnome-desktop
 debian-installer-launcher
 git
 iputils-ping
@@ -106,7 +113,6 @@ python3-pip
 kwin-addons
 gimp
 kdenlive
-blender
 vlc
 ```  
 (save and exit the terminal)
