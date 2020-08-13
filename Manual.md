@@ -53,7 +53,6 @@ lb config noauto \
      --iso-hybrid \
      --linux-flavours amd64 \
      --cache true \
-     --distribution buster \
      --mode debian \
      --architectures amd64 \
      --archive-areas "main contrib non-free" \
