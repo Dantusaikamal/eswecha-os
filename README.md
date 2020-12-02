@@ -1,7 +1,6 @@
 # eswecha-os
 
 
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -14,7 +13,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![MIT License][license-shield]][https://github.com/Dantusaikamal/eswecha-os/blob/master/LICENSE]
 [![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/dantu-sai-kamal/]
 
 
@@ -119,7 +118,7 @@ Our OS comes preinstalled with all the softwares an Engineer would require.
 <br>
 The Softwares we included are completely Open Source. We included the alternatives for proprietary softwares. 
 
-For more information, please refer to the [Documentation]()_
+For more information, please refer to the [Documentation]
 
 
 
