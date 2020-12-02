@@ -13,9 +13,8 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][https://github.com/Dantusaikamal/eswecha-os/blob/master/LICENSE]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/dantu-sai-kamal/]
-
+[![MIT License][license-shield]](https://github.com/Dantusaikamal/eswecha-os/blob/master/LICENSE)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/dantu-sai-kamal/)
 
 
 <!-- PROJECT LOGO -->
